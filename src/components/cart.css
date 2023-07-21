@@ -1,0 +1,116 @@
+.container {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container .cartItem {
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 200px;
+    width: 95%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 30px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+
+.container .cartItem .itemImg{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container .cartItem .itemImg img{
+    height: 150px;
+    width: 150px; 
+}
+
+
+.container .Bill{
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 200px;
+    width: 95%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.container .Bill h3{
+    margin-right: 70px;
+}
+
+/* Tablet View */
+@media only screen and (max-width:915px){
+    .container {
+        height: auto;
+        width: 100%;
+        margin-left: 2%;
+    }
+    
+    .container .cartItem {
+        width: 100%;
+    }
+
+    .container .ItemName h4{
+        font-size: 18px;
+        overflow: scroll;
+    }
+    .container .Bill{
+        width: 100%;
+    }
+}
+/* Phone View */
+@media only screen and (max-width:550px){
+    .container {
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .container .cartItem {
+        height: 150px;
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 20px;
+    }
+    
+    .container .cartItem .itemImg{
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .cartItem .itemImg img{
+        margin-top: 20px;
+        height: 50%;
+        width: 100%; 
+    }
+    .container p{
+        font-size: 9px;
+        overflow: scroll;
+    }
+    .container h3{
+        font-size: 12px;
+    }
+    .container .ItemName h4{
+        font-size: 10px;
+        overflow: scroll;
+    }
+    
+    .container .Bill{
+        height: 100px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .container .Bill h3{
+        margin-right: 20px;
+    }
+}

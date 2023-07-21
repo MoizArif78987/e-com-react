@@ -1,0 +1,16 @@
+.contactCard{
+    justify-content: left;
+}
+.contactCard .cardHead{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    font-size: 35px;
+    font-weight: 700;
+}
+.contactCard .button{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+

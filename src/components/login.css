@@ -1,0 +1,72 @@
+.loginDiv{
+    margin-top: 2%;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.loginDiv .imageDiv{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.loginDiv .imageDiv img{
+    height: 70px;
+    width: 70px;
+}
+.loginDiv .header{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+.loginDiv .header h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.loginDiv .inputs{
+    height: auto;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.ending{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.ending p{
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: 400;
+}
+.ending button{
+    height: 50px;
+    width: 80%;
+    background-color: rgb(1, 1, 63);
+    color: white;
+    border-radius: 10px;
+
+}
+
+/* Tablet View */
+@media only screen and (max-width:915px){
+    .loginDiv{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+/* Phone View */
+@media only screen and (max-width:550px){
+    .loginDiv{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
